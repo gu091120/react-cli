@@ -1,8 +1,9 @@
 #!/usr/bin/env node
+/* eslint-disable global-require */
 
-const program = require("commander");
-program
-    .version(`@vue/cli ${require("../package").version}`)
-    .usage("<command> [options]");
+const program = require('commander');
+const pak = require('../package.json');
 
-program.command("create <app-name>").description("创建一个新的项目");
+program.version(`@vue/cli ${pak.version}`).usage('<command> [options]');
+
+program.command('create <app-name>').description('创建一个新的项目');
