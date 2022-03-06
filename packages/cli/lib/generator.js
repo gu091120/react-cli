@@ -61,5 +61,4 @@ class Generator {
      */
     end() {}
 }
-
 module.exports = Generator;
