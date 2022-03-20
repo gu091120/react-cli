@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "ESNEXT",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "noImplicitThis": true,
+        "newLine": "lf"
+    },
+    "include": ["lib"],
+    "exclude": ["node_modules", "dist", "__test__"]
+}

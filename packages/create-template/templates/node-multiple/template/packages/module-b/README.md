@@ -1,11 +1,11 @@
-# `cli-init`
+# `module-b`
 
 > TODO: description
 
 ## Usage
 
 ```
-const cliInit = require('cli-init');
+const moduleB = require('module-b');
 
 // TODO: DEMONSTRATE API
 ```
